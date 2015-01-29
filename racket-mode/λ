@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: λ
+# key: \
+# expand-env: ((yas-indent-line 'auto))
+# binding: direct-keybinding
+# --
+(λ ($1)
+  $0)
