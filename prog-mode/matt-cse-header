@@ -1,0 +1,17 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Generic CS homework header for C-type languages
+# key: chd
+# binding: direct-keybinding
+# --
+/*
+ * CSE $1 Assignment $2
+ *
+ * `(buffer-name)`
+ * $3
+ *
+ * Author: Matthew Chan <mcc002@ucsd.edu>
+ * ID:     A99114477
+ * Date:   `(format-time-string "%d %B %Y")`
+ */
+
+$0
