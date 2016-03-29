@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: org-header
+# key: header
+# --
+#+TITLE: $1
+#+SUBTITLE: $2
+#+AUTHOR: Matt Chan
+#+DATE: `(format-time-string "%d %B %Y")`
+#+OPTIONS: toc:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [letterpaper,10pt]
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
